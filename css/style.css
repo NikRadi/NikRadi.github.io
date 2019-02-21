@@ -1,28 +1,58 @@
 
 
+/* General */
+
+body {
+  font-family: "Verdana";
+}
+
+.vl {
+  border-left: 2px solid #808080;
+  width: 75%;
+  height: 90%;
+  position: absolute;
+  left: 300px;
+  top: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 /* Navbar */
 
 .navbar {
   font-size: 24px;
+  width: 300px;
+  height: 100%;
 }
 
 .navbar ul {
   list-style-type: none;
   padding: 0;
-  margin: 50px 20%;
+  margin: 100px 25%;
 }
 
 .navbar li {
-  display: inline;
-  margin-right: 50px;
+  margin-right: 40px;
+  margin: 20px 0;
+}
+
+.navbar img {
+  width: 20px;
+  height: 20px;
 }
 
 
-/* Index */
+/* Section */
 
-.index {
-  font-size: 30px;
-  width: 75%;
-  padding: 0;
-  margin: 50px 10%;
+.section {
+  padding: 0 15%;
+  margin: 25px 0;
+}
+
+.section a {
+  color: #ff8000;
 }
