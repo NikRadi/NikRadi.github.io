@@ -22,6 +22,10 @@ h1 {
   font-size: 24px;
   width: 300px;
   height: 100%;
+  position: fixed;
+  border-right: 2px solid #808080;
+  top: 5%;
+  height: 90%;
 }
 
 .navbar ul {
@@ -43,12 +47,9 @@ h1 {
 /* Container */
 
 .container {
-  border-left: 2px solid #808080;
   width: 75%;
-  height: 90%;
   position: absolute;
   left: 300px;
-  top: 5%;
 }
 
 
