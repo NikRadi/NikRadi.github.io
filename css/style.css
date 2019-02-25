@@ -4,6 +4,7 @@
 
 body {
   font-family: "Verdana";
+  margin: 0;
 }
 
 a {
@@ -44,12 +45,14 @@ h1 {
   height: 20px;
 }
 
-/* Container */
+/* Content */
 
 .content {
-  width: 75%;
-  position: absolute;
-  left: 300px;
+  position: left;
+  margin: 25px 0;
+  margin-left: 300px;
+  margin-right: 50px;
+  padding-top: 25px;
 }
 
 
