@@ -22,28 +22,42 @@ h1 {
 .navbar {
   font-size: 24px;
   width: 300px;
-  height: 100%;
   position: fixed;
   border-right: 2px solid #808080;
   top: 5%;
   height: 90%;
 }
 
-.navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 100px 25%;
+.navbar .links {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 50px auto;
 }
 
-.navbar li {
-  margin-right: 40px;
-  margin: 20px 0;
+.navbar .links a {
+  padding: 10px 0;
 }
 
-.navbar img {
-  width: 20px;
-  height: 20px;
+.navbar .links a:hover {
+  color: gray;
 }
+
+.navbar .links img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar .links img:hover {
+  width: 35px;
+  height: 35px;
+}
+
+.navbar .links .icons {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* Content */
 
@@ -77,4 +91,9 @@ h1 {
 
 .section a {
   color: #ff8000;
+  font-weight: bold;
+}
+
+.section a:hover {
+  color: #ce6700;
 }
