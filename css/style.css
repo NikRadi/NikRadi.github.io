@@ -28,47 +28,63 @@ h1 {
   height: 90%;
 }
 
-.navbar .links {
+.navbar .big-links {
   display: flex;
   flex-direction: column;
   width: 100px;
   margin: 50px auto;
 }
 
-.navbar .links a {
+.navbar .big-links a {
   padding: 10px 0;
 }
 
-.navbar .links a:hover {
+.navbar .big-links a:hover {
   color: gray;
 }
 
-.navbar .links img {
+.navbar .big-links img {
   width: 30px;
   height: 30px;
   transition: 0.1s linear;
 }
 
-.navbar .links img:hover {
+.navbar .big-links img:hover {
   width: 40px;
   height: 40px;
   transition: 0.1s linear;
 }
 
-.navbar .links .icons {
+.navbar .big-links .icons {
   height: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    margin-right: 50px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+
+  .content {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 
 /* Content */
 
 .content {
-  position: left;
-  margin: 25px 0;
-  margin-left: 300px;
-  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding-top: 25px;
 }
 
