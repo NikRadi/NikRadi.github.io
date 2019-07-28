@@ -1,0 +1,118 @@
+
+
+/* General */
+
+body {
+  font-family: "Verdana";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+
+/* Navbar */
+
+.navbar {
+  font-size: 24px;
+  width: 300px;
+  position: fixed;
+  border-right: 2px solid #808080;
+  top: 5%;
+  height: 90%;
+}
+
+.navbar .big-links {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 50px auto;
+}
+
+.navbar .big-links a {
+  padding: 10px 0;
+}
+
+.navbar .big-links a:hover {
+  color: gray;
+}
+
+.navbar .big-links img {
+  width: 30px;
+  height: 30px;
+  transition: 0.1s linear;
+}
+
+.navbar .big-links img:hover {
+  width: 40px;
+  height: 40px;
+  transition: 0.1s linear;
+}
+
+.navbar .big-links .icons {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    margin-right: 50px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+
+  .content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+
+/* Content */
+
+.content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+
+
+/* Welcome Section */
+
+.welcome-section {
+  padding: 0 15%;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+
+/* Section */
+
+.section {
+  padding: 0 15%;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  line-height: 25px;
+}
+
+.section a {
+  color: #ff8000;
+  font-weight: bold;
+}
+
+.section a:hover {
+  color: #ce6700;
+}
