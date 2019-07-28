@@ -1,5 +1,9 @@
+# files
 .DS_Store
-/node_modules/
-/src/node_modules/@sapper/
 yarn-error.log
-/cypress/screenshots/
+
+# directories
+/svelte/node_modules/
+/svelte/src/node_modules/@sapper/
+/svelte/cypress/screenshots/
+/svelte/__sapper__/
