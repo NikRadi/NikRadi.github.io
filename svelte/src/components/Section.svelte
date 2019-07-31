@@ -16,5 +16,5 @@
     <h1 id={id}>
         <slot name="title"></slot>
     </h1>
-    <slot></slot>
+    <slot name="content"></slot>
 </div>

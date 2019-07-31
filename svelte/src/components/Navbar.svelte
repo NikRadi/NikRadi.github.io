@@ -39,6 +39,6 @@
         </h1>
     </div>
     <div class="navbar-items">
-        <slot></slot>
+        <slot name="items"></slot>
     </div>
 </nav>

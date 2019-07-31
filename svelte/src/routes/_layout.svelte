@@ -11,9 +11,11 @@
 	<span slot="brand">
 		<NavbarItem href="/">Nik Radi</NavbarItem>
 	</span>
-	<NavbarItem href="#about">About</NavbarItem>
-	<NavbarItem href="#projects">Projects</NavbarItem>
-	<NavbarItem href="#contact">Contact</NavbarItem>
+	<span slot="items">
+		<NavbarItem href="#about">About</NavbarItem>
+		<NavbarItem href="#projects">Projects</NavbarItem>
+		<NavbarItem href="#contact">Contact</NavbarItem>
+	</span>
 </Navbar>
 
 <main>
