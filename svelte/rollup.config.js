@@ -20,7 +20,7 @@ let includePathOptions = {
 	include: {},
 	paths: ["./src"],
 	external: [],
-	extensions: [".svelte"]
+	extensions: [".svelte", ".js"]
 };
 
 export default {
