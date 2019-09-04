@@ -4,7 +4,8 @@
 <style type="text/scss">
     .subsection-wrapper {
         border-top: 2px solid #46bbb5;
-        margin: 75px;
+        margin: 75px 250px;
+        padding: 0 50px;
     }
 </style>
 
