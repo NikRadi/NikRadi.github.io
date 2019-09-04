@@ -13,6 +13,10 @@
         h1 {
             text-align: center;
         }
+
+        .content {
+            margin: 0 250px;
+        }
     }
 
     .colored {
@@ -24,5 +28,8 @@
     <h1>
         <slot name="title">No Title</slot>
     </h1>
-    <slot name="content"/>
+    <div class="content">
+        <slot name="text"/>
+        <slot name="content"/>
+    </div>
 </div>
