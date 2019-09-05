@@ -1,8 +1,8 @@
 <script>
-    import { getNumberOfSections } from "stores/sections";
+    export let colored = false;
 
     let classes = "";
-    classes += (getNumberOfSections() % 2 === 0) ? "colored" : "";
+    classes += (colored) ? "colored" : "";
     classes += " ";
 </script>
 
@@ -16,6 +16,10 @@
 
         .content {
             margin: 0 250px;
+
+            .text {
+                padding: 0 200px;
+            }
         }
     }
 
@@ -29,7 +33,9 @@
         <slot name="title">No Title</slot>
     </h1>
     <div class="content">
-        <slot name="text"/>
+        <div class="text">
+            <slot name="text"/>
+        </div>
         <slot name="content"/>
     </div>
 </div>
