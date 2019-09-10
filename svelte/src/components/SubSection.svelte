@@ -11,7 +11,7 @@
 
 <div class="subsection-wrapper">
     <h2>
-        <slot name="title">No Title</slot>
+        <slot name="title">Title</slot>
     </h2>
     <slot name="content"/>
 </div>

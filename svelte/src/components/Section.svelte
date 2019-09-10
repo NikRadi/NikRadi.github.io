@@ -13,11 +13,11 @@
 
         .content {
             margin: 0 auto;
-            max-width: 1100px;
+            max-width: 1000px;
 
             .text {
                 margin: inherit;
-                max-width: 800px;
+                max-width: 750px;
             }
         }
     }
@@ -25,7 +25,7 @@
 
 <div class="section-wrapper" style="background-color: {bgcol}; color: {tcol};">
     <h1>
-        <slot name="title">No Title</slot>
+        <slot name="title">Title</slot>
     </h1>
     <div class="content">
         <div class="text">

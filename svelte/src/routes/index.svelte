@@ -1,14 +1,19 @@
 <script>
+    import Experience from "components/Experience";
     import Section from "components/Section";
     import SubSection from "components/SubSection";
     import Rating from "components/Rating";
 
     const bgcol = "#faf8e8";
     const footerbgcol = "#555555";
-    const footertcol = "#bbbbbb";
+    const footertcol = "#cccccc";
 </script>
 
 <style type="text/scss">
+    img {
+        width: 250px;
+    }
+
     .index-wrapper {
         width: 100%;
     }
@@ -20,9 +25,9 @@
         <span slot="text">
             I currently study Computer Science at the Technical University of Denmark (DTU).
             I work as a student helper at Siemens where I'm working on a variety of projects, but I typically make websites.
-        </span>
-        <span slot="content">
-            <img src="/img/me.jpg" alt="My image" style="height: 400px"/>
+            <br>
+            In my spare time I enjoy spending time on my projects, workout and play the piano.
+            <img src="/img/me.jpg" alt="My image"/>
         </span>
     </Section>
     <Section>
@@ -31,13 +36,39 @@
             <SubSection>
                 <span slot="title">Education</span>
                 <span slot="content">
-                    Something
+                    <Experience>
+                        <span slot="location">Technical University of Denmark, Lyngby</span>
+                        <span slot="time">2019 - now</span>
+                        <span slot="title">M.Sc in Computer Science and Engineering</span>
+                        <span slot="description">
+                            Computer Graphics, Deep Learning and Cryptology.
+                        </span>
+                    </Experience>
+                    <Experience>
+                        <span slot="location">Technical University of Denmark, Lyngby</span>
+                        <span slot="time">2016 - 2019</span>
+                        <span slot="title">B.Sc in Software Technology</span>
+                        <span slot="description">
+                            While studying Software Technology, I chose to focus my courses on AI.
+                        </span>
+                    </Experience>
                 </span>
             </SubSection>
             <SubSection>
                 <span slot="title">Career</span>
                 <span slot="content">
-                    Something
+                    <Experience>
+                        <span slot="location">Siemens, Ballerup</span>
+                        <span slot="time">2018 - now</span>
+                        <span slot="title">Student Helper</span>
+                        <span slot="description">
+                            I help the employees in Siemens in various ways.
+                            <br>
+                            Usually I'm making websites to make life easier, either back-end or front-end but sometimes full-stack.
+                            <br>
+                            Besides websites I also make Excel formulas or macros using VBA, or making a small Python-application to speed up a process.
+                        </span>
+                    </Experience>
                 </span>
             </SubSection>
             <SubSection>
