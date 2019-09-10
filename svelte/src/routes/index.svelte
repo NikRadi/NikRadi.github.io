@@ -2,6 +2,10 @@
     import Section from "components/Section";
     import SubSection from "components/SubSection";
     import Rating from "components/Rating";
+
+    const bgcol = "#faf8e8";
+    const footerbgcol = "#555555";
+    const footertcol = "#bbbbbb";
 </script>
 
 <style type="text/scss">
@@ -11,31 +15,14 @@
 </style>
 
 <div class="index-wrapper">
-    <Section colored>
+    <Section {bgcol}>
         <span slot="title">About Me</span>
         <span slot="text">
             I currently study Computer Science at the Technical University of Denmark (DTU).
             I work as a student helper at Siemens where I'm working on a variety of projects, but I typically make websites.
         </span>
         <span slot="content">
-            <SubSection>
-                <span slot="title">Hobbies</span>
-                <span slot="content">
-                    I enjoy working out and working on my peronal
-                    <a target="_blank" href="https://github.com/NikRadi">projects</a>.
-                    My projects typically have an AI-theme, and may vary from
-                    <a target="_blank" href="https://github.com/NikRadi/Kasparov2">chess bots</a>
-                    to simple
-                    <a target="_blank" href="https://github.com/NikRadi/SimpleNeuralNetPy">deep learning</a> projects.
-                    If I have any time left during the day I usually play the piano.
-                </span>
-            </SubSection>
-            <SubSection>
-                <span slot="title">Languages</span>
-                <span slot="content">
-                    My native language is Farsi, but since I live in Denmark I mainly speak Danish. I also know English and a tiny bit German.
-                </span>
-            </SubSection>
+            <img src="/img/me.jpg" alt="My image" style="height: 400px"/>
         </span>
     </Section>
     <Section>
@@ -56,12 +43,17 @@
             <SubSection>
                 <span slot="title">Projects</span>
                 <span slot="content">
-                    Something
+                    I enjoy working out and working on my personal
+                    <a target="_blank" href="https://github.com/NikRadi">projects</a>.
+                    My projects typically have an AI-theme, and may vary from
+                    <a target="_blank" href="https://github.com/NikRadi/Kasparov2">chess bots</a>
+                    to simple
+                    <a target="_blank" href="https://github.com/NikRadi/SimpleNeuralNetPy">deep learning</a> projects.
                 </span>
             </SubSection>
         </span>
     </Section>
-    <Section colored>
+    <Section {bgcol}>
         <span slot="title">Skills</span>
         <span slot="content">
             <SubSection>
@@ -98,5 +90,8 @@
                 </span>
             </SubSection>
         </span>
+    </Section>
+    <Section bgcol={footerbgcol} tcol={footertcol}>
+        <span slot="title">Contact</span>
     </Section>
 </div>

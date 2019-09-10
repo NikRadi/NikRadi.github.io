@@ -1,9 +1,6 @@
 <script>
-    export let colored = false;
-
-    let classes = "";
-    classes += (colored) ? "colored" : "";
-    classes += " ";
+    export let bgcol = "#ffffff";
+    export let tcol = "#444444";
 </script>
 
 <style type="text/scss">
@@ -15,20 +12,18 @@
         }
 
         .content {
-            margin: 0 250px;
+            margin: 0 auto;
+            max-width: 1100px;
 
             .text {
-                padding: 0 200px;
+                margin: inherit;
+                max-width: 800px;
             }
         }
     }
-
-    .colored {
-        background-color: #faf8e8;
-    }
 </style>
 
-<div class="section-wrapper {classes}">
+<div class="section-wrapper" style="background-color: {bgcol}; color: {tcol};">
     <h1>
         <slot name="title">No Title</slot>
     </h1>
