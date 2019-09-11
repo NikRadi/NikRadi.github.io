@@ -10,12 +10,24 @@
 </script>
 
 <style type="text/scss">
-    img {
-        width: 250px;
-    }
 
     .index-wrapper {
         width: 100%;
+    }
+
+    .aboutme-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        p {
+            max-width: 400px;
+        }
+        
+        img {
+            max-width: 250px;
+            margin-left: 10px;
+        }
     }
 </style>
 
@@ -23,11 +35,15 @@
     <Section {bgcol}>
         <span slot="title">About Me</span>
         <span slot="text">
-            I currently study Computer Science at the Technical University of Denmark (DTU).
-            I work as a student helper at Siemens where I'm working on a variety of projects, but I typically make websites.
-            <br>
-            In my spare time I enjoy spending time on my projects, workout and play the piano.
-            <img src="/img/me.jpg" alt="My image"/>
+            <div class="aboutme-wrapper">
+                <p>
+                    I currently study Computer Science at the Technical University of Denmark (DTU).
+                    I work as a student helper at Siemens where I'm working on a variety of projects, but I typically make websites.
+                    <br>
+                    In my spare time I enjoy spending time on my projects, workout and play the piano.
+                </p>
+                <img src="/img/me.jpg" alt="My image"/>
+            </div>
         </span>
     </Section>
     <Section>
