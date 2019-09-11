@@ -15,12 +15,14 @@
         width: 100%;
     }
 
-    .aboutme-wrapper {
+    #aboutme-content {
+        margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
 
         p {
+            margin-top: 5px;
             max-width: 400px;
         }
         
@@ -35,7 +37,7 @@
     <Section {bgcol}>
         <span slot="title">About Me</span>
         <span slot="text">
-            <div class="aboutme-wrapper">
+            <div id="aboutme-content">
                 <p>
                     I currently study Computer Science at the Technical University of Denmark (DTU).
                     I work as a student helper at Siemens where I'm working on a variety of projects, but I typically make websites.
@@ -50,39 +52,44 @@
         <span slot="title">Experiences</span>
         <span slot="content">
             <SubSection>
-                <span slot="title">Education</span>
+                <span slot="title">Educations</span>
                 <span slot="content">
                     <Experience>
                         <span slot="location">Technical University of Denmark, Lyngby</span>
-                        <span slot="time">2019 - now</span>
                         <span slot="title">M.Sc in Computer Science and Engineering</span>
+                        <span slot="time">2019 - now</span>
                         <span slot="description">
-                            Computer Graphics, Deep Learning and Cryptology.
+                            I'm currently studing my Master's degree at first semester, and haven't finished any courses yet.
+                            <br>
+                            My courses currently vary from computer graphics to deep learning.
                         </span>
                     </Experience>
                     <Experience>
                         <span slot="location">Technical University of Denmark, Lyngby</span>
-                        <span slot="time">2016 - 2019</span>
                         <span slot="title">B.Sc in Software Technology</span>
+                        <span slot="time">2016 - 2019</span>
                         <span slot="description">
                             While studying Software Technology, I chose to focus my courses on AI.
+                            <br>
+                            My thesis had the title <i>Artificial Intelligence in Multi-Agent Systems</i>.
                         </span>
                     </Experience>
                 </span>
             </SubSection>
             <SubSection>
-                <span slot="title">Career</span>
+                <span slot="title">Careers</span>
                 <span slot="content">
                     <Experience>
                         <span slot="location">Siemens, Ballerup</span>
-                        <span slot="time">2018 - now</span>
                         <span slot="title">Student Helper</span>
+                        <span slot="time">2018 - now</span>
                         <span slot="description">
                             I help the employees in Siemens in various ways.
                             <br>
-                            Usually I'm making websites to make life easier, either back-end or front-end but sometimes full-stack.
+                            Usually I'm making websites to make life easier, either back-end or front-end, sometimes full-stack.
                             <br>
-                            Besides websites I also make Excel formulas or macros using VBA, or making a small Python-application to speed up a process.
+                            Besides websites I also help making Excel formulas or write macros using VBA.
+                            Other times I speed up a process by writing a small Python-app.
                         </span>
                     </Experience>
                 </span>
