@@ -150,10 +150,10 @@
     <Section bgcol={footerbgcol} tcol={footertcol} centercontent>
         <span slot="title">Contact</span>
         <span slot="content">
-            <a target="_blank" href="https://www.linkedin.com/in/nik-radi-66ba4b152/" style="color: {iconcolor}; border: 1px solid red;">
+            <a target="_blank" href="https://www.linkedin.com/in/nik-radi-66ba4b152/" style="color: {iconcolor};">
                 <i class="fab fa-linkedin" style="font-size: {iconsize};"></i>
             </a>
-            <a target="_blank" href="https://github.com/nikradi" style="color: {iconcolor}; border: 1px solid red;">
+            <a target="_blank" href="https://github.com/nikradi" style="color: {iconcolor};">
                 <i class="fab fa-github-square" style="font-size: {iconsize};"></i>
             </a>
         </span>
