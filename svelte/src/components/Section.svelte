@@ -1,6 +1,8 @@
 <script>
     export let bgcol = "#ffffff";
     export let tcol = "#444444";
+
+    export let centercontent = false;
 </script>
 
 <style type="text/scss">
@@ -21,6 +23,13 @@
             }
         }
     }
+
+    .centercontent {
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 </style>
 
 <div class="section-wrapper" style="background-color: {bgcol}; color: {tcol};">
@@ -31,6 +40,8 @@
         <div class="text">
             <slot name="text"/>
         </div>
-        <slot name="content"/>
+        <div class:centercontent>
+            <slot name="content"/>
+        </div>
     </div>
 </div>
