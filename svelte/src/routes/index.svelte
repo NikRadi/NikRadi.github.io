@@ -7,6 +7,8 @@
     const bgcol = "#faf8e8";
     const footerbgcol = "#555555";
     const footertcol = "#cccccc";
+    const iconsize = "100px";
+    const iconcolor = "#ffffff"
 </script>
 
 <style type="text/scss">
@@ -117,12 +119,12 @@
                     <Rating rating={5}>C#</Rating>
                     <Rating rating={5}>Python</Rating>
                     <Rating rating={4}>HTML / CSS</Rating>
-                    <Rating rating={3}>SASS / SCSS</Rating>
+                    <Rating rating={4}>SASS / SCSS</Rating>
+                    <Rating rating={3}>Javascript</Rating>
                     <Rating rating={3}>c</Rating>
                     <Rating rating={3}>Java</Rating>
                     <Rating rating={3}>SQL</Rating>
                     <Rating rating={3}>VBA</Rating>
-                    <Rating rating={2}>Javascript</Rating>
                     <Rating rating={2}>Prolog</Rating>
                     <Rating rating={1}>F#</Rating>
                     <Rating rating={1}>R</Rating>
@@ -139,13 +141,21 @@
                 <span slot="title">Tools</span>
                 <span slot="content">
                     <Rating rating={4}>Git</Rating>
-                    <Rating rating={3}>SQLite</Rating>
-                    <Rating rating={2}>PostgresSQL</Rating>
+                    <Rating rating={4}>SQLite</Rating>
+                    <Rating rating={4}>PostgresSQL</Rating>
                 </span>
             </SubSection>
         </span>
     </Section>
-    <Section bgcol={footerbgcol} tcol={footertcol}>
+    <Section bgcol={footerbgcol} tcol={footertcol} centercontent>
         <span slot="title">Contact</span>
+        <span slot="content">
+            <a target="_blank" href="https://www.linkedin.com/in/nik-radi-66ba4b152/" style="color: {iconcolor}; border: 1px solid red;">
+                <i class="fab fa-linkedin" style="font-size: {iconsize};"></i>
+            </a>
+            <a target="_blank" href="https://github.com/nikradi" style="color: {iconcolor}; border: 1px solid red;">
+                <i class="fab fa-github-square" style="font-size: {iconsize};"></i>
+            </a>
+        </span>
     </Section>
 </div>
