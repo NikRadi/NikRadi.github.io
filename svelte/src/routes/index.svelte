@@ -120,10 +120,10 @@
                     <Rating rating={5}>Python</Rating>
                     <Rating rating={4}>HTML / CSS</Rating>
                     <Rating rating={4}>SASS / SCSS</Rating>
+                    <Rating rating={4}>SQL</Rating>
                     <Rating rating={3}>Javascript</Rating>
                     <Rating rating={3}>c</Rating>
                     <Rating rating={3}>Java</Rating>
-                    <Rating rating={3}>SQL</Rating>
                     <Rating rating={3}>VBA</Rating>
                     <Rating rating={2}>Prolog</Rating>
                     <Rating rating={1}>F#</Rating>
