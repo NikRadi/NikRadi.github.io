@@ -1,17 +1,85 @@
-body {
-    margin: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5em;
-    color: #333;
+
+/* HTML element overrides */
+
+img {
+	width: 100%;
+	max-width: 300px;
 }
 
-a {
-    text-decoration: none;
-    color: #ff8000;
-    font-weight: bold;
+
+/* Bulma class overrides */
+
+.row {
+	margin-bottom: 10px;
 }
 
-a:hover {
-    color: #ce6700;
+.column {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+/* Custom classes */
+
+.rating-circle {
+	width: 20px;
+	height: 20px;
+	background-color: #bbbbbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.rating-title {
+	display: inline-block;
+	min-width: 80px;
+	width: 30%;
+	max-width: 110px;
+	white-space: nowrap;
+	overflow: auto;
+}
+
+.rating-row {
+	margin: 10px 0;
+}
+
+.line-top {
+	border-top: 2px solid #46bbb5;
+}
+
+.section-size {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.is-width1 {
+	max-width: 750px;
+}
+
+.is-width2 {
+	max-width: 1000px;
+}
+
+.color-bgcircle {
+	background-color: #46bbb5;
+}
+
+.color-bgsection {
+	background-color: #faf8e8;
+}
+
+.color-bgfooter {
+	background-color: #6b6a5f;
+}
+
+.color-tfooter {
+	color: #e9e7d5;
+}
+
+.color-ticon {
+	color: #ffffff;
+}
+
+.icon {
+	font-size: 100px;
+	margin: 50px;
 }
