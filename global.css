@@ -21,27 +21,6 @@ img {
 
 /* Custom classes */
 
-.rating-circle {
-	width: 20px;
-	height: 20px;
-	background-color: #bbbbbb;
-	border-radius: 50%;
-	display: inline-block;
-}
-
-.rating-title {
-	display: inline-block;
-	min-width: 80px;
-	width: 30%;
-	max-width: 110px;
-	white-space: nowrap;
-	overflow: auto;
-}
-
-.rating-row {
-	margin: 10px 0;
-}
-
 .line-top {
 	border-top: 2px solid #46bbb5;
 }
