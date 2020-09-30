@@ -1,2 +1,2 @@
-# <a href="https://nikradi.github.io" target="_blank">nikradi.github.io</a>
+# [nikradi.github.io](https://nikradi.github.io/ "A really awesome website")
 My personal website
