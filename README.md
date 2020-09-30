@@ -1,2 +1,2 @@
-# nikradi.github.io
-Personal website
+# [nikradi.github.io](https://nikradi.github.io/ "A really awesome website")
+My personal website
